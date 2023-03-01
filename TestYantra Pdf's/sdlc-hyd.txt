@@ -1,0 +1,84 @@
+
+Prepare PAKODA/PAKORA 
+
+Step 1 - Take a bowl add gram flour, salt, onions, chilly, water
+Step 2 - Take a vessel put some oil , heat it, wait for 5 mins 
+Step 3 - Deep fry the pakoda 
+Step 4 - Allow it cool for 2 or 3 mins 
+Step 5 - Upload it to social media 
+Step 6 - Eating it 
+
+Develop project ()
+
+SDLC (Software Development Life Cycle)
+
+Project Manager
+Techincal Lead
+Developers 
+Testers 
+Devops 
+Architect 
+=====================
+
+Requirement Analysis (Customer, Project Manager, Techincal Lead)
+Design (Documentation ) 
+	- Product Requirement Document (PRD)   (Customer, Project Manager, Techincal Lead)
+	- High Level Design (HLD)   (Project Manager, Technical Lead, DBA , Architect)
+	- Low Level Design (LLD) (methods , algorithms , library) (Project Manager, Technical Lead, DBA , Architect)
+	- UI/UX Design (Customer, UI/UX Developer , Project Manager)
+Implementation (Coding) - (Project Manager, Technical Lead, Developers)
+Testing  				- (Testers)
+Deployment (to the internet (AWS, Azure )) - Devops Team
+Maintenance (Bugs, Add a new feature)
+
+BUGS/ISSUES 
+Priority
+P1 - High Priority (It should be fixed) 
+P2 - Add the data in form its not saving (It should also be fixed)
+P3 - Input box are not as per the design (It should also be fixed)
+P4 - Alignment issue / Email E-mail 
+	(If it can be neglected , they will move this 
+		issue to next phase )
+=====================================================================
+SDLC  
+
+1. Waterfall Model 
+2. Agile Model 
+	- Kanban Methodology 
+	- Scrum Methodology 
+	
+Scrum Methodology 	
+	10 Sprints 
+	Sprint - User stories 
+	
+	Sprint - 2 to 3 weeks 
+	
+	Scrum Team 
+		- Project Manager 
+		- Technical Lead 
+		- SCRUM MASTER
+		- Developer
+		- Testers 
+		- Devops 
+		
+	
+	
+	Sprint Planning   - 10 User stories , who should develop which user stories 
+	Daily Stand Up Meeting - Scrum teams 	(15 to 20 mins)
+	Backlog Grooming  (Mid of sprint)
+	Sprint Review     (End of sprint) 9 
+	Sprint Retrospective (End of sprint) What went well ? 
+									What could have been better ?
+	
+		
+JIRA CONFLUENCE - 
+
+
+
+
+	
+
+
+
+
+

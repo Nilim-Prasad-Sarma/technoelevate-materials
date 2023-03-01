@@ -1,0 +1,88 @@
+to build an image
+docker build -t spring-boot-docker(image-name) .
+
+to check the image--
+docker images
+
+to run the container--
+docker container run -d --name spring-app(container name) -p 8085(dockerport):8085(applicationport) spring-boot-docker(image name)
+
+running container
+docker ps
+
+all containers
+docker ps -a
+
+if container is in running state/to delete
+docker rm -f containerID
+
+to delete image(stopping the container is must)
+docker rmi
+
+
+FROM openjdk:8
+COPY /target/. /target
+WORKDIR /target
+EXPOSE 8085
+ENTRYPOINT [ "java", "-jar", "spring-boot-docker-0.0.1-SNAPSHOT.jar" ]
+
+
+For Docker Build 
+
+inside <Configuration>
+
+<image>
+<name>reponame/msa-${project.artifactId}:${project.version}</name>
+<pullPolicy>IF_NOT_PRESENT</pullPolicy>
+</image>
+
+For maven build command 
+spring-boot:build-image -DskipTests
+
+
+In application.properties
+
+adding ip address for  jdbc url is important
+jdbc:mysql://<ip>:3306/spring_microservice_demo
+
+
+
+------------------------------------------------------------------------------------------
+
+TO PUSH TO DOCKERHUB:
+Docker login
+
+docker tag <old image name> username/<new image name> : <tagname>
+
+docker images
+
+docker push <new image name>: <tagname>
+
+TO PULL:
+docker pull <new image name>:<tagname>
+
+-------------------------------------------------------------------------------------------
+AWS commands:
+
+sudo -i (to switch to root user)
+
+To download docker in AWS server
+
+sudo yum install docker -y
+
+To Check docker status
+service docker status
+
+To start docker :
+service docker start
+
+To pull docker image:
+docker pull <username>/<imagename>:<tagname>
+
+To create the container:
+docker container run -d --name spring-app(container name) -p 8085(dockerport):8085(applicationport) spring-boot-docker(image name)
+
+
+
+To set env variables:
+find /usr/lib/jvm/java-1.8* | head -n 3

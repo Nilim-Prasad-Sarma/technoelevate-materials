@@ -1,0 +1,37 @@
+DesignPatterns:
+	Proven solution of existing programs.
+
+
+J2EE: DAO-- > Data Access Object(interacts with the database)
+ 
+      DTO--> Data Transfer Object(helps us to transfer the data from one class to another with the help of object, we can also do some validations before setting the data)
+
+****To do validations we can have one more layer known as Service layer
+
+
+Creational patterns: SingleTon class, Factory, Builder.
+
+Sturctural Patterns: Front Controller, Adapter, Model View Controller(MVC)
+
+Behvioural Design Patterns: State, template, observer, strategy, etc..... 
+
+
+
+Serializable:: Importance.
+Converts your java object into physical representation, so we can use that particular object in any project.
+
+
+
+Sturctural Patterns: Front Controller, Adapter, Model View Controller(MVC)
+
+Mololithic projects: Front end and backend in a single language: using MVC
+
+Service Oriented Architechture:Front end diff lang backend diff lang: 
+ using Front controllers
+
+
+
+MVC ARCHITECHTURE:
+
+Browser---> Controller(servlets)---->model(dao,dto,service layer)----> DB
+<---Views<--Controller(servlets)<----model(dao,dto,service layer)<---- DB

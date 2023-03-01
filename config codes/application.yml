@@ -1,0 +1,66 @@
+SERVICE YML CONFIGURATION WITH EUREKA SERVER:
+spring:
+  application:
+    name: Employee-Service
+    
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+  instance:
+    hostname: localhost
+
+
+
+SERVICE-REGISTRY YML CONFIGURATION OF EUREKA SERVER:
+
+server:
+  port: 8761
+  
+  eureka:
+    client:
+     register-with-eureka: false
+     fetch-registry: false
+
+SERVICE-REGISTRY PROPERTIES CONFIGURATION OF EUREKA SERVER:
+server.port=8761
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+
+API_GATEWAY YML CONFIGURATION:
+server:
+  port: 9191
+
+spring:
+  application:
+    name: API-GATEWAY
+    
+  cloud:
+    gateway:
+      routes:
+      - id: Department-Service
+        uri: lb://Department-Service
+        predicates:
+        - Path=/departments/**
+      - id: Employee-Service
+        uri: lb://Employee-Service
+        predicates:
+        - Path=/employees/**
+        
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+  instance:
+    hostname: localhost
+
+     
+    
+    
+      

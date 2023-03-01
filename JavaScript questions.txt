@@ -1,0 +1,15 @@
+]	Difference b/w === and == operator?
+	How can a value be appended to an array?
+	Explain all javascript array methods. With example
+	Difference b/w var, let, const keywords
+	What is a “closure”,”Callback ” in JavaScript? Provide an example
+	Explain the use of rest and spread operator
+	What is a “closure”,”Callback ” in JavaScript? Provide an example
+	Is JavaScript a case-sensitive language?
+	What is the difference between window & document in JavaScript?
+	What is the for-in loop in JavaScript? Give its syntax.
+	What is JavaScript Hoisting?
+	What are Promises?
+	What is a Destructuring ? assignment and explain in brief?
+	difference between innerHTML and innerText?
+	difference between for in , for of and for each?

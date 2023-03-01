@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Time-Table</title>
+	<style>
+		table
+		{
+			width: 60%;
+			position: relative;
+			left:250px;
+			top:100px;
+			box-shadow: 0px 40px 50px black;
+		}
+		table, .a, .sub, .days
+		{
+			border: 2px solid black;
+			border-collapse: collapse;
+		}
+		.a1
+		{
+			padding: 10px;
+			font-size: 35px;
+		}
+		thead
+		{
+			background-color: skyblue;
+		}
+		.a
+		{
+			border-radius: 5px;
+			padding:20px;
+			background-color: skyblue;
+			font-size: 30px;
+			font-weight: bold;
+			text-align: center;
+			text-transform:uppercase;
+		}
+		.lunch
+		{
+			background-color: skyblue;
+			padding:0px;
+			text-align: center; 
+			font-weight: bolder;
+			font-size: 25px;
+		}
+		.sub
+		{
+			padding: 10px;
+			text-align: center;
+			font-size: 20px;
+			font-family:'comic sans ms', sans-serif;
+			background-color: #f7e4e4;
+		}
+		.days
+		{
+			background-color: skyblue;
+			font-size: 25px;
+			text-align: center;
+			font-weight: bolder;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th class="a1" colspan="5"> Time-Table</th>
+			</tr>
+		</thead>
+			<tbody>
+				<tr>
+			
+					<td class="a">Days</td>
+					<td class="a">1</td>
+					<td class="a">2</td>
+					<td  class="lunch" rowspan="4"> <b> L<br> <br>U <br><br>N <br><br>C <br><br>H </b></td>
+					<td class="a">3</td>
+				</tr>
+		
+			<tr>
+				<td class="days">Monday</td>
+				<td class="sub">English</td>
+				<td class="sub">Social Science</td>
+				<td class="sub">Sanskrit</td>
+
+			</tr>
+			<tr>
+				<td class="days">Tuesday</td>
+				<td class="sub">Maths</td>
+				<td class="sub">G.K</td>
+				<td class="sub">English</td>
+
+			</tr>
+			<tr>
+				<td class="days">Wednesday</td>
+				<td class="sub">Science</td>
+				<td class="sub">Hindi</td>
+				<td class="sub">Computer</td>
+
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>

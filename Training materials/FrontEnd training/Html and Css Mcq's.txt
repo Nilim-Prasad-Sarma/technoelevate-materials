@@ -1,0 +1,439 @@
+Q. Apart from <b> tag, what other tag makes text bold ?
+A.<fat>
+B.<strong>
+C.<black>
+D.<emp>
+
+Answer : <strong> [Option : B]
+
+---------------------------------------------------------------------------------------------
+Q. How can you make a bulleted list with numbers?
+A.<dl> 
+B.<ol>
+C.<list>
+D.<ul>
+
+Answer : <ol> [Option : B]
+
+---------------------------------------------------------------------------------------------
+Q.	
+HTML web pages can be read and rendered by _________.
+A.Compiler
+B.Server
+C.Web Browser
+D.Interpreter
+
+Answer : Web Browser [Option : C]
+----------------------------------------------------------------------------------------
+Q. Which of the following element is responsible for making the text italic in HTML?
+
+A.<i>
+B.<italic>
+C.<it>
+D.<pre>
+
+Answer : <i> [Option : A]
+----------------------------------------------------------------------------------------
+
+Q.How to insert an image in HTML?
+
+A.<img href = "jtp.png" />
+B.<img url = "jtp.png" />
+C.<img link = "jtp.png" />
+D.<img src = "jtp.png" />
+
+
+Answer : <img src = "abc.jpg" /> [Option : D]
+-----------------------------------------------------------------------------------------
+Q. Which of the following tag is used to define options in a drop-down selection list?
+
+A.<select>
+B.<list>
+C.<dropdown>
+D.<option>
+
+Answer : <option> [Option : D]
+
+-----------------------------------------------------------------------------------------
+
+Q. Which of the following tag is used to add rows in the table?
+
+A.<td> and </td>
+B.<th> and </th>
+C.<tr> and </tr>
+D.None of the above
+
+Answer : <tr> and </tr> [Option : C]
+
+-----------------------------------------------------------------------------------------
+
+Q. What are the types of unordered or bulleted list in HTML?
+
+A.disc, square, triangle
+B.polygon, triangle, circle
+C.disc, circle, square
+D.All of the above
+
+Answer : disc, circle, square [Option : C]
+
+-----------------------------------------------------------------------------------------
+Q.Hyperlinks can be used in text and images both.
+A. true
+B. False
+Answer : True [Option : A]
+-----------------------------------------------------------------------------------------
+
+Q. An inline element starts on new line.
+A. True
+B. False
+
+Answer : False [Option : B]
+------------------------------------------------------------------------------------------
+
+Q. Which of the following is the correct syntax for referring the external style sheet?
+
+A.<style src = example.css>
+B.<style src = "example.css" >
+C.<stylesheet> example.css </stylesheet>
+D.<link rel="stylesheet" type="text/css" href="example.css">
+
+Answer : <link rel="stylesheet" type="text/css" href="example.css"> [Option : D]
+
+------------------------------------------------------------------------------------------
+
+Q.  The property in CSS used to change the background colour of an element is -
+
+A. bgcolor
+B. color
+C. background-color
+D. All of the above
+
+Answer : background-color [Option : C]
+------------------------------------------------------------------------------------------
+
+Q.The property in CSS used to change the text colour of an element is -
+
+A. bgcolor
+B. color
+C. background-color
+D. All of the above
+
+Answer : color [Option : B]
+-------------------------------------------------------------------------------------------
+
+Q. The CSS property used to control the element's font-size is -
+
+A. text-style
+B. text-size
+C. font-size
+D. None of the above
+
+Answer : font-size [Option : C]
+-------------------------------------------------------------------------------------------
+
+Q. Which of the following is the correct syntax to display the hyperlinks without any underline?
+
+A. a {text-decoration : underline;}
+B. a {decoration : no-underline;}
+C. a {text-decoration : none;}
+D. None of the above
+
+Answer : a {text-decoration : none;} [Option : C]
+--------------------------------------------------------------------------------------------
+
+Q: The CSS property used to make the text bold is -
+
+A. font-weight : bold
+B. weight: bold
+C. font: bold
+D. style: bold
+
+Answer : font-weight : bold [Option : A]
+---------------------------------------------------------------------------------------------
+
+Q. Which of the following syntax is correct in CSS to make each word of a sentence start with a capital letter?
+
+A. text-style : capital;
+B. transform : capitalize;
+C. text-transform : capital;
+D. text-transform : capitalize;
+
+Answer : text-transform : capitalize; [Option : D]
+---------------------------------------------------------------------------------------------
+Q. How to select the elements with the class name "example"?
+
+A. example
+B. #example
+C. .example
+D. Class example
+
+Answer : .example [Option : C]
+
+-----------------------------------------------------------------------------------------------
+Q. Which of the following CSS property is used to add shadows to the text?
+
+A. text-shadow
+B. text-stroke
+C. text-overflow
+D. text-decoration
+
+Answer : text-shadow [Option : A]
+
+-----------------------------------------------------------------------------------------------
+Q. Which of the following CSS property is used to specify whether the table cells share the common or separate border?
+
+A. border-collapse
+B. border-radius
+C. border-spacing
+D. None of the above
+
+Answer :  border-collapse [Option : A]
+
+-----------------------------------------------------------------------------------------------
+
+Q. Which element is used in the <HEAD> section on an HTML / XHTMLpage, if we want to use an external style sheet file to decorate the page ?
+
+A. <src>
+B. <link>
+C. <style>
+D. <css>
+
+Answer : <link> [Option : A]
+
+------------------------------------------------------------------------------------------------
+Q.Which css property you will use if you want to add some margin between a div  tag's border and its inner text ?
+
+A.spacing
+B.margin
+C.padding
+D.inner-margin
+
+Answer : padding [Option : C]
+
+-------------------------------------------------------------------------------------------------
+
+Q. What is the correct CSS syntax for making all the <p> elements bold?
+
+A. <p style = "text-size : bold;">
+B. p {font-weight :bold; }
+C. <p style = "font-size : bold;">
+D. p {text-weight :bold; }
+
+Answer :  {font-weight :bold; } [Option : B]
+
+--------------------------------------------------------------------------------------------------
+
+Q. Which property is used to change the font of an element?
+
+A. font-weight
+B. font-style
+C. font-family
+D. font-size
+
+Answer : font-family [Option : C]
+
+--------------------------------------------------------------------------------------------------
+
+Q. When using the padding property; are you allowed to use negative values?
+
+A. Yes
+B. No
+
+Answer : no [Option : B]
+---------------------------------------------------------------------------------------------------
+
+Q. How do you select an element with id 'demo'?
+
+A. *demo
+B. #demo
+C. .demo
+D. demo
+
+Answer : #demo [Option : B]
+
+----------------------------------------------------------------------------------------------------
+
+Q. How do you group selectors?
+
+A. select each selector with a space
+B. select each selector with a plus sign 
+C. select each selector with a comma
+
+Answer : select each selector with a comma [Option : C]
+
+-----------------------------------------------------------------------------------------------------
+
+Q. What is the default value of the position property?
+
+A. relative
+B. static
+C. fixed
+D. sticky
+
+Answer : static [Option : B] 
+
+------------------------------------------------------------------------------------------------------
+
+Q. How can you open a link in a new tab/browser window?
+
+A. <a href = "url" new>
+B. <a href = "url" target="_blank">
+C. <a href = "url" target="_new">
+
+Answer : <a href = "url" target="_blank"> [Option : B]
+
+-------------------------------------------------------------------------------------------------------
+
+Q. Inline elements are normally displayed without starting a new line.
+
+A. true
+B. false
+
+Answer : true [Option : A]
+--------------------------------------------------------------------------------------------------------
+Q. What is the correct HTML for creating a text area?
+
+A. <input type= "textbox">
+B. <input type= "textarea">
+C. <textarea>
+
+Answer : <textarea> [Option : C]
+--------------------------------------------------------------------------------------------------------
+Q. An <iframe> is used to display a web page within a web page.
+
+A. true
+B. false
+C. none of the above
+
+Answer : true [Option : A]
+----------------------------------------------------------------------------------------------------------
+Q. Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?
+
+A. title
+B. alt
+C. src
+D. img
+
+Answer : alt [Option : B]
+----------------------------------------------------------------------------------------------------------
+Q. In HTML, you can embed SVG elements directly into an HTML page.
+
+A. True
+B. false
+
+Answer : True [Option : A]
+----------------------------------------------------------------------------------------------------------
+Q. In HTML, which attribute is used to specify that an input field must be filled out?
+
+A. formvalidate
+B. placeholder	
+C. required
+D. validate
+
+Answer : required [Option : C]
+----------------------------------------------------------------------------------------------------------
+Q. Which input type defines a slider control?
+
+A. <gauge>
+B. <slider>
+C. <search>
+D. <range>
+
+Answer : <range> [Option : D]
+----------------------------------------------------------------------------------------------------------
+Q. Which HTML element defines navigation links?
+
+A. <navigation>
+B. <navigate>
+C. <nav>
+D. <navbar>
+
+Answer : <nav> [Option : C]
+----------------------------------------------------------------------------------------------------------
+Q.  Which of the following property defines the length of time that a transition takes?
+
+A) transition
+B) transition-duration
+C) transform-duration
+D) transition-property
+
+Answer : transition-duration [Option : B]
+----------------------------------------------------------------------------------------------------------
+Q. Which of the following CSS property define the properties that will be animated in an animation rule?
+
+A. @keyframes
+B. animation-origin
+C. transform
+D. animation
+
+Answer : animation [Option : D]
+----------------------------------------------------------------------------------------------------------
+
+Q. Which of the following css property is used to define the time it takes for one iteration of an animation to play?
+
+A. control
+B. animation-duration
+C. transition-duration
+D. both B and C.
+
+Answer : transition-duration [Option : C]
+----------------------------------------------------------------------------------------------------------
+
+Q. Which of the following transform property value defines a 2D translation?
+
+A. translate(x,y)
+B. translate2d(x,y)
+C. translate3d(x,y)
+D. all of the mentioned
+
+Answer : translate(x,y) [Option : A]
+
+----------------------------------------------------------------------------------------------------------
+Q. Which of the following transform property value defines a translation, using only the value for the X-axis?
+
+A) translate(x)
+B) translateZ(x)
+C) translateY(x)
+D) translateX(x)
+
+Answer : translateX(x) [Option : D]
+----------------------------------------------------------------------------------------------------------
+
+Q. Which of the following transform property value defines a 2D skew transformation along the X- and the Y-axis?
+
+A. skewX(angle)
+B. skewY(angle)
+C. skew(x-angle,y-angle)
+D. none of the mentioned
+
+Answer : skew(x-angle,y-angle) [Option : C]
+----------------------------------------------------------------------------------------------------------
+
+Q. Which of the following transform property value defines a 3D rotation along the Z-axis?
+
+A. rotate-Z(angle)
+B. rotate-Z-axis(angle)
+C. rotateZ(angle)
+D. all of the mentioned
+
+Answer : rotateZ(angle) [option : C]
+----------------------------------------------------------------------------------------------------------
+
+Q. Which of the following transform property value defines a 3D rotation?
+
+A. rotate3d(x,y,z,angle)
+B. rotated(x,y,z,angle)
+C. rotate-all(x,y,z,angle)
+D. rotate(x,y,z,angle)
+
+Answer : rotate3d(x,y,z,angle) [Option : A]
+
+
+Q. Which of the following argument is not accepted by radial-gradient() function?
+
+A. Shape	
+B. Time
+C. Color stops
+D. Position
+
+Answer : Time [Option : B]
